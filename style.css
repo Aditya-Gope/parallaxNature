@@ -57,3 +57,24 @@ html,body{
   background-color: #282e34;
   color: #ddd;
 }
+.navbar ul{
+  list-style-type: none;
+  background-color: hsl(0,0%,30%);
+  padding: 3px;
+  margin: 0px;
+  overflow: hidden;
+}
+
+.navbar a{
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+  display: block;
+  text-align: center;
+}
+.navbar a:hover{
+  background-color: gray;
+}
+.navbar li{
+ float: left;
+}
